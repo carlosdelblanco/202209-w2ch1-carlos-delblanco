@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass:compile": "sass public/sass/styles.scss public/css/styles.css",
-    "sass:watch": "sass --watch public/sass/styles.scss public/css/styles.css",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "sass:compile": "sass src/sass/styles.scss public/css/styles.css",
+    "sass:watch": "sass --watch src/sass/styles.scss public/css/styles.css"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,6 @@
   "devDependencies": {
     "sass": "^1.55.0",
     "husky": "^8.0.0"
+
   }
 }
