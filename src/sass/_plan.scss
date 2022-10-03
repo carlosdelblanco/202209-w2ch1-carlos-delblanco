@@ -1,0 +1,9 @@
+@use "./colors";
+
+.offer-plan {
+  display: flex;
+  background-color: colors.$body-color;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
