@@ -1,0 +1,7 @@
+@use "./colors";
+
+.main-text {
+  width: 375px;
+  text-align: center;
+  color: colors.$body-alternative-color;
+}

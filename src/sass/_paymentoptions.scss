@@ -1,0 +1,18 @@
+@use "./colors";
+
+.payment {
+  &__proceed {
+    background-color: colors.$Primary-background;
+    color: colors.$Primary-header;
+    height: 40px;
+    border-radius: 15px;
+    width: 375px;
+  }
+  &__cancel {
+    color: colors.$body-alternative-color;
+    background-color: white;
+    width: 375px;
+    height: 40px;
+    border-radius: 15px;
+  }
+}
