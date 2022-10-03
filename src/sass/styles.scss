@@ -1,3 +1,23 @@
-p {
-  font-size: 50px;
+@use "./colors";
+@use "./header";
+@use "./headerimage";
+@use "./maintext";
+@use "./paymentoptions";
+
+* {
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  max-width: fit-content;
+}
+
+body {
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
