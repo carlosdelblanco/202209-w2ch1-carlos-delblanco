@@ -1,6 +1,8 @@
 @use "./colors";
 
 .payment {
+  text-align: center;
+  width: 100%;
   &__proceed {
     background-color: colors.$Primary-background;
     color: colors.$Primary-header;
